@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import { AppRegistry, Image } from 'react-native';
+import { AppRegistry, Image, Button, Text, Alert, View, TouchableOpacity } from 'react-native';
 
-export default class Bananas extends Component {
+export default class ratingApp extends Component {
   render() {
-    let pic = {
-      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
-    };
     return (
-      <Image source={pic} style={{width: 193, height: 110}}/>
+      <View style={{flex:1, flexDirection:"row", backgroundColor:"blue", alignItems:"flex-end", marginBottom:50}}>
+        <TouchableOpacity
+          onPress={() => {
+          Alert.alert("hello");
+          }
+        }>
+          <Image source={require("./assets/star.png")} style={{height:100,width:100}}/>
+        </TouchableOpacity>
+      </View>
     );
   }
 }
-
-// skip this line if using Create React Native App
-AppRegistry.registerComponent('ratingApp', () => Bananas);
