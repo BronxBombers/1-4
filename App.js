@@ -6,7 +6,10 @@ export default class ratingApp extends Component {
   render() {
     return (
       <View style={{flex:1,flexDirection:"column",backgroundColor:"red",justifyContent:"flex-end"}}>
-        <Image source={require("./assets/placeholder.jpg")} style={{height:150,width:150,marginBottom:250,alignItem:"center"}}/>
+        <View style={{flex:0,flexDirection:"column", alignItems:"center",marginBottom:150,marginTop:100}}>
+          <Text style={{fontSize:36,paddingBottom:50}}>Store Name Here</Text>
+          <Image source={require("./assets/placeholder.jpg")} style={{height:250,width:250}}/>
+        </View>
         <View style={{flex:0, flexDirection:"row", backgroundColor:"blue", marginBottom:75}}>
           <TouchableOpacity
             onPress={() => {
