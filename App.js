@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
-import { AppRegistry, Image } from 'react-native';
+import React, {Component} from 'react';
+import {AppRegistry, Text, View, StyleSheet} from 'react-native';
 
-export default class Bananas extends Component {
+export default class Ratings extends Component {
   render() {
-    let pic = {
-      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
-    };
     return (
-      <Image source={pic} style={{width: 193, height: 110}}/>
+      <Text style = {{fontWeight: 'bold', fontSize: 24, padding:50, textAlign: 'center'}}>
+        Einstien Bros Bagles
+        </Text>
     );
   }
-}
 
-// skip this line if using Create React Native App
-AppRegistry.registerComponent('ratingApp', () => Bananas);
+}
