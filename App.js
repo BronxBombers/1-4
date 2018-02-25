@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import { AppRegistry, Image, Button, Text, Alert, View, TouchableOpacity, ImageBackground, StyleSheet } from 'react-native';
+import RNGooglePlaces from 'react-native-google-places';
 
 export default class ratingApp extends Component {
 
@@ -32,6 +33,18 @@ export default class ratingApp extends Component {
         <View style={styles.stars}>
           {this.renderButton()}          
         </View>
+        <Button onPress={()=>{
+          RNGooglePlaces.openPlacePickerModal({
+            latitude: 53.544389,
+            longitude: -113.490927,
+            radius: 0.01 // 10 meters
+          })
+            .then((place) => {
+            console.log(place);
+            })
+            .catch(error => console.log(error.message));
+        }}
+        title="test"/>
       </ImageBackground>
     );
   }

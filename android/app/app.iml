@@ -22,7 +22,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/build/intermediates/classes/dev19/debug" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/dev19/debug" />
     <exclude-output />
@@ -128,7 +128,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="com.facebook.fresco:animated-gif-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="com.facebook.stetho:stetho:1.3.1@jar" level="project" />
@@ -138,7 +138,6 @@
     <orderEntry type="library" exported="" name="com.github.thefuntasty:CreditCardEntry-1.4.8.4" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.exoplayer:exoplayer-r2.0.3" level="project" />
     <orderEntry type="library" exported="" name="com.raizlabs.android:DBFlow-2.2.1" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-fragment-26.0.1" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-location-10.2.4" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-annotations:26.0.1@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="com.squareup:javawriter:2.1.1@jar" level="project" />
@@ -156,7 +155,6 @@
     <orderEntry type="library" exported="" name="com.squareup.picasso:picasso:2.5.2@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-analytics-9.8.0" level="project" />
     <orderEntry type="library" exported="" name="host.exp:reactandroid-abi21-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-media-compat-26.0.1" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:recyclerview-v7-26.0.1" level="project" />
     <orderEntry type="library" exported="" name="host.exp:reactandroid-abi19-1.0.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.1" level="project" />
@@ -206,8 +204,8 @@
     <orderEntry type="library" exported="" name="com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-fitness-9.8.0" level="project" />
     <orderEntry type="library" exported="" name="host.exp:reactandroid-abi20-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="com.google.firebase:firebase-iid-9.8.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-core-utils-26.0.1" level="project" />
     <orderEntry type="library" exported="" name="com.stripe:stripe-android-2.1.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="com.android.support.test:runner-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="io.branch.sdk.android:library-2.6.1" level="project" />
@@ -223,7 +221,6 @@
     <orderEntry type="library" exported="" name="com.android.support:exifinterface-26.0.1" level="project" />
     <orderEntry type="library" exported="" name="com.facebook.fbui.textlayoutbuilder:staticlayout-proxy:1.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.firebase:firebase-common-9.8.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-v4-26.0.1" level="project" />
     <orderEntry type="library" exported="" name="expolib_v1.com.squareup.okio:okio:1.13.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-places-10.2.4" level="project" />
     <orderEntry type="library" exported="" name="com.google.zxing:core:3.3.0@jar" level="project" />
@@ -267,6 +264,5 @@
     <orderEntry type="library" exported="" name="org.webkit:android-jsc-r174650" level="project" />
     <orderEntry type="library" exported="" name="com.facebook.android:facebook-applinks-4.28.0" level="project" />
     <orderEntry type="module" module-name="react-native-google-places" exported="" />
-    <orderEntry type="library" exported="" name="android-android-26" level="project" />
   </component>
 </module>

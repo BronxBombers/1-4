@@ -2077,50 +2077,8 @@
                     "startLine": 284,
                     "startColumn": 4,
                     "startOffset": 20834,
-                    "endLine": 286,
-                    "endColumn": 12,
-                    "endOffset": 20997
-                },
-                "from": {
-                    "file": "C:\\Users\\curly\\.android\\build-cache\\02e07e336412f136726b00ca372495f0d99a3da1\\output\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 4,
-                        "endColumn": 12,
-                        "endOffset": 218
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 287,
-                    "startColumn": 4,
-                    "startOffset": 21002,
-                    "endLine": 289,
-                    "endColumn": 12,
-                    "endOffset": 21160
-                },
-                "from": {
-                    "file": "C:\\Users\\curly\\.android\\build-cache\\02e07e336412f136726b00ca372495f0d99a3da1\\output\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 223,
-                        "endLine": 7,
-                        "endColumn": 12,
-                        "endOffset": 381
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 290,
-                    "startColumn": 4,
-                    "startOffset": 21165,
                     "endColumn": 125,
-                    "endOffset": 21286
+                    "endOffset": 20955
                 },
                 "from": {
                     "file": "C:\\Users\\curly\\.android\\build-cache\\9581affb22540d99e899bfcd9ff2909fdb4116d6\\output\\res\\values-v21\\values-v21.xml",
@@ -2135,32 +2093,11 @@
             },
             {
                 "to": {
-                    "startLine": 291,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 21291,
-                    "endLine": 293,
-                    "endColumn": 12,
-                    "endOffset": 21454
-                },
-                "from": {
-                    "file": "C:\\Users\\curly\\.android\\build-cache\\02e07e336412f136726b00ca372495f0d99a3da1\\output\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 386,
-                        "endLine": 10,
-                        "endColumn": 12,
-                        "endOffset": 549
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 294,
-                    "startColumn": 4,
-                    "startOffset": 21459,
+                    "startOffset": 20960,
                     "endColumn": 127,
-                    "endOffset": 21582
+                    "endOffset": 21083
                 },
                 "from": {
                     "file": "C:\\Users\\curly\\.android\\build-cache\\9581affb22540d99e899bfcd9ff2909fdb4116d6\\output\\res\\values-v21\\values-v21.xml",
@@ -2175,33 +2112,12 @@
             },
             {
                 "to": {
-                    "startLine": 295,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 21587,
-                    "endLine": 297,
+                    "startOffset": 21088,
+                    "endLine": 288,
                     "endColumn": 12,
-                    "endOffset": 21749
-                },
-                "from": {
-                    "file": "C:\\Users\\curly\\.android\\build-cache\\02e07e336412f136726b00ca372495f0d99a3da1\\output\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 554,
-                        "endLine": 13,
-                        "endColumn": 12,
-                        "endOffset": 716
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 298,
-                    "startColumn": 4,
-                    "startOffset": 21754,
-                    "endLine": 300,
-                    "endColumn": 12,
-                    "endOffset": 21921
+                    "endOffset": 21255
                 },
                 "from": {
                     "file": "C:\\Users\\curly\\.android\\build-cache\\9581affb22540d99e899bfcd9ff2909fdb4116d6\\output\\res\\values-v21\\values-v21.xml",
@@ -2217,12 +2133,12 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 21926,
-                    "endLine": 305,
+                    "startOffset": 21260,
+                    "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 22259
+                    "endOffset": 21593
                 },
                 "from": {
                     "file": "C:\\Users\\curly\\.android\\build-cache\\9581affb22540d99e899bfcd9ff2909fdb4116d6\\output\\res\\values-v21\\values-v21.xml",

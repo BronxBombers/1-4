@@ -198,6 +198,7 @@ MERGED from [com.facebook.android:facebook-places:4.28.0] C:\Users\curly\.androi
 MERGED from [com.facebook.android:facebook-applinks:4.28.0] C:\Users\curly\.android\build-cache\e76f18ba4985ebc52f9cc5a9e4f797141b3d8273\output\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-messenger:4.28.0] C:\Users\curly\.android\build-cache\f52dc489a09e6374bf155aac32fbf01f5e379c46\output\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\curly\.android\build-cache\9f16bd697c4e3fa982c5e0874f945fee21231e99\output\AndroidManifest.xml:29:5-20
 MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:14:5-18:19
 MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\curly\.android\build-cache\0e523359f5d2360e2974db5b8da69fb4eeb6d953\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\curly\.android\build-cache\897b567255ebfd6693283877eb157c891d19dd3e\output\AndroidManifest.xml:23:5-19
@@ -225,6 +226,8 @@ MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-
 MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\621efc0ef24d19d2a259f3d92369b54546da2ee3\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\501c803eab1aa2591a77305fbc79892f79145893\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\curly\.android\build-cache\3f33120681f67d2342260d4658a5c10819059b15\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:24:5-28:19
@@ -232,12 +235,6 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\bui
 MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\curly\.android\build-cache\698b48284b5733ee51e43ae3da9144044ba99714\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\curly\.android\build-cache\b458d5c416a949e8659621a837c0a4d703175e05\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\curly\.android\build-cache\02e07e336412f136726b00ca372495f0d99a3da1\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\curly\.android\build-cache\0be6f6c4d5ae1647959ed88efc046a54b9a9f9e8\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\curly\.android\build-cache\02764933bae5e7ef740ad6273ec2ffb3d50ef908\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:47:5-37
 	android:supportsRtl
@@ -593,6 +590,7 @@ MERGED from [com.facebook.android:facebook-places:4.28.0] C:\Users\curly\.androi
 MERGED from [com.facebook.android:facebook-applinks:4.28.0] C:\Users\curly\.android\build-cache\e76f18ba4985ebc52f9cc5a9e4f797141b3d8273\output\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-messenger:4.28.0] C:\Users\curly\.android\build-cache\f52dc489a09e6374bf155aac32fbf01f5e379c46\output\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\curly\.android\build-cache\9f16bd697c4e3fa982c5e0874f945fee21231e99\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\curly\.android\build-cache\0e523359f5d2360e2974db5b8da69fb4eeb6d953\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.exoplayer:exoplayer:r2.0.3] C:\Users\curly\.android\build-cache\c620a6217f75bb151cfabab2e7df46168f3ebd06\output\AndroidManifest.xml:21:5-23:41
@@ -630,6 +628,8 @@ MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-
 MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\621efc0ef24d19d2a259f3d92369b54546da2ee3\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\501c803eab1aa2591a77305fbc79892f79145893\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\curly\.android\build-cache\3f33120681f67d2342260d4658a5c10819059b15\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:17:5-42
@@ -637,15 +637,9 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\bui
 MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\curly\.android\build-cache\698b48284b5733ee51e43ae3da9144044ba99714\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\curly\.android\build-cache\b458d5c416a949e8659621a837c0a4d703175e05\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\curly\.android\build-cache\02e07e336412f136726b00ca372495f0d99a3da1\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\curly\.android\build-cache\0be6f6c4d5ae1647959ed88efc046a54b9a9f9e8\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\curly\.android\build-cache\02764933bae5e7ef740ad6273ec2ffb3d50ef908\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta1] C:\Users\curly\.android\build-cache\cd2d425132f9c75b20467021a139639fba0795c2\output\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:support-core-utils:25.3.1] C:\Users\curly\.android\build-cache\9f16bd697c4e3fa982c5e0874f945fee21231e99\output\AndroidManifest.xml:23:9-58
 	android:targetSdkVersion
 		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
@@ -766,11 +760,7 @@ MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\curly\.android\b
 MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\621efc0ef24d19d2a259f3d92369b54546da2ee3\output\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\501c803eab1aa2591a77305fbc79892f79145893\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\curly\.android\build-cache\b458d5c416a949e8659621a837c0a4d703175e05\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\curly\.android\build-cache\02e07e336412f136726b00ca372495f0d99a3da1\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\curly\.android\build-cache\0be6f6c4d5ae1647959ed88efc046a54b9a9f9e8\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\curly\.android\build-cache\02764933bae5e7ef740ad6273ec2ffb3d50ef908\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:26:9-28:38
 	android:value
 		ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\curly\.android\build-cache\64108aac6de058dc8ba3c39752bc739d1509aa27\output\AndroidManifest.xml:25:13-35

@@ -54,11 +54,11 @@ public final class R {
         public static final int exo_controls_stop_description = 0x7f090049;
     }
     public static final class style {
-        public static final int ExoMediaButton = 0x7f0b00ee;
-        public static final int ExoMediaButton_FastForward = 0x7f0b00ef;
-        public static final int ExoMediaButton_Next = 0x7f0b00f0;
-        public static final int ExoMediaButton_Previous = 0x7f0b00f1;
-        public static final int ExoMediaButton_Rewind = 0x7f0b00f2;
+        public static final int ExoMediaButton = 0x7f0b00ea;
+        public static final int ExoMediaButton_FastForward = 0x7f0b00eb;
+        public static final int ExoMediaButton_Next = 0x7f0b00ec;
+        public static final int ExoMediaButton_Previous = 0x7f0b00ed;
+        public static final int ExoMediaButton_Rewind = 0x7f0b00ee;
     }
     public static final class styleable {
         public static final int[] AspectRatioFrameLayout = { 0x7f010004 };

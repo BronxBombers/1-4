@@ -47,7 +47,7 @@ public final class R {
         public static final int google_play_services_version = 0x7f100006;
     }
     public static final class layout {
-        public static final int text_bubble = 0x7f040052;
+        public static final int text_bubble = 0x7f040049;
     }
     public static final class raw {
         public static final int gtm_analytics = 0x7f080000;
@@ -69,9 +69,9 @@ public final class R {
         public static final int common_signin_button_text_long = 0x7f09003b;
     }
     public static final class style {
-        public static final int Bubble_TextAppearance_Dark = 0x7f0b00de;
-        public static final int Bubble_TextAppearance_Light = 0x7f0b00df;
-        public static final int ClusterIcon_TextAppearance = 0x7f0b00e9;
+        public static final int Bubble_TextAppearance_Dark = 0x7f0b00da;
+        public static final int Bubble_TextAppearance_Light = 0x7f0b00db;
+        public static final int ClusterIcon_TextAppearance = 0x7f0b00e5;
     }
     public static final class styleable {
         public static final int[] LoadingImageView = { 0x7f01011f, 0x7f010120, 0x7f010121 };
