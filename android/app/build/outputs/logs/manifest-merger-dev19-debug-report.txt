@@ -1,0 +1,972 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:2:1-261:12
+	package
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:3:3-30
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:5:3-49
+	xmlns:android
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:4:3-61
+	android:versionCode
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+permission#oneClickRating.permission.C2D_MESSAGE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:7:3-9:42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:9:5-40
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:8:5-57
+uses-permission#oneClickRating.permission.C2D_MESSAGE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:12:3-75
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:12:20-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:13:3-80
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\curly\.android\build-cache\897b567255ebfd6693283877eb157c891d19dd3e\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\curly\.android\build-cache\e6b6ccd3bf4dfa57a547c02e46dec83ec53d07e3\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:13:20-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:14:3-77
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:25:5-79
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\curly\.android\build-cache\77c37120c8391e9cc89a1c58641f472b2eb5ccdf\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\06e0a6addbc37dbc96f74698783228f549610d58\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\curly\.android\build-cache\211a7604d7b2311255411b3342af2ac869baff59\output\AndroidManifest.xml:19:5-78
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:14:20-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:15:3-65
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:19:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\curly\.android\build-cache\549ed1897874519711e885b821ea105f2fd4f6ff\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\curly\.android\build-cache\3158554928925c8f1c098b6fbb0af403f7228f3e\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\curly\.android\build-cache\30d325b5fd2f7e66ad08bd9e0a7d77aa05409248\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\curly\.android\build-cache\884e84805417d00f45f6c481f28582717bb66f97\output\AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\curly\.android\build-cache\d4e5d42a7592486632fa8085894660b25063835d\output\AndroidManifest.xml:9:5-67
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\curly\.android\build-cache\897b567255ebfd6693283877eb157c891d19dd3e\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\curly\.android\build-cache\e6b6ccd3bf4dfa57a547c02e46dec83ec53d07e3\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\curly\.android\build-cache\77c37120c8391e9cc89a1c58641f472b2eb5ccdf\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\06e0a6addbc37dbc96f74698783228f549610d58\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\curly\.android\build-cache\211a7604d7b2311255411b3342af2ac869baff59\output\AndroidManifest.xml:20:5-66
+MERGED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:15:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:16:3-76
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:21:5-78
+MERGED from [com.facebook.react:react-native:25.0.0] C:\Users\curly\.android\build-cache\064fc4ce8c6e0ab1bd5e28b804bb210d11ca8859\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] C:\Users\curly\.android\build-cache\8834600c37efbdd0ecbb5416587c012f8547849c\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] C:\Users\curly\.android\build-cache\23757e2d8c9f066789e612c15ad6f7e5abf35e83\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi23:1.0.0] C:\Users\curly\.android\build-cache\9e13603e022931416ddd5eafb26e8f58aca474ef\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi22:1.0.0] C:\Users\curly\.android\build-cache\08e777bfcd92aef9c27086d09741184087e7f813\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi21:1.0.0] C:\Users\curly\.android\build-cache\0911b5b716c6aa593260a370f79d4f0a64709e7f\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi20:1.0.0] C:\Users\curly\.android\build-cache\6796d8bd0b989d3a4ffb42f796b82a1872c3c721\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi19:1.0.0] C:\Users\curly\.android\build-cache\9c366f79265027d72b7f21074e9924b97cbf1773\output\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:16:20-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:17:3-66
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:22:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\curly\.android\build-cache\77c37120c8391e9cc89a1c58641f472b2eb5ccdf\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\06e0a6addbc37dbc96f74698783228f549610d58\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:17:20-63
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:21:3-73
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:21:20-70
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:22:3-78
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:22:20-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:23:3-73
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:23:20-70
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:24:3-72
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:24:20-69
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:25:3-64
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:25:20-61
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:26:3-86
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:20:5-88
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:26:20-83
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:29:3-79
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:36:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:29:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:30:3-77
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:37:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:30:20-74
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:31:3-63
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:35:5-65
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-cache\ecaa4999089425e33fd7d52a273c4ac1d3e8d0f4\output\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:31:20-60
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:32:3-70
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:32:20-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:33:3-78
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:33:20-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:34:3-69
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:34:20-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:35:3-79
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:35:20-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:36:3-71
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:36:20-68
+uses-feature#0x00020000
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:41:3-77
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\curly\.android\build-cache\211a7604d7b2311255411b3342af2ac869baff59\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:41:17-49
+	android:required
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:41:50-74
+application
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:43:3-259:17
+MERGED from [android:react-native-google-places:unspecified] C:\Users\curly\git\ratingApp\node_modules\react-native-google-places\android\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-places:10.2.4] C:\Users\curly\.android\build-cache\bb160670332059e6373edb43310db2ddcc9f140f\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.maps.android:android-maps-utils:0.3.4] C:\Users\curly\.android\build-cache\aef3a4521b21658a9677fa94905131d38040d505\output\AndroidManifest.xml:7:5-20
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:67:5-83:19
+MERGED from [com.facebook.react:react-native:25.0.0] C:\Users\curly\.android\build-cache\064fc4ce8c6e0ab1bd5e28b804bb210d11ca8859\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] C:\Users\curly\.android\build-cache\8834600c37efbdd0ecbb5416587c012f8547849c\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] C:\Users\curly\.android\build-cache\23757e2d8c9f066789e612c15ad6f7e5abf35e83\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi23:1.0.0] C:\Users\curly\.android\build-cache\9e13603e022931416ddd5eafb26e8f58aca474ef\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi22:1.0.0] C:\Users\curly\.android\build-cache\08e777bfcd92aef9c27086d09741184087e7f813\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi21:1.0.0] C:\Users\curly\.android\build-cache\0911b5b716c6aa593260a370f79d4f0a64709e7f\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi20:1.0.0] C:\Users\curly\.android\build-cache\6796d8bd0b989d3a4ffb42f796b82a1872c3c721\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi19:1.0.0] C:\Users\curly\.android\build-cache\9c366f79265027d72b7f21074e9924b97cbf1773\output\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\curly\.android\build-cache\e42c8ced49ad8796c5da0cedb4be7c33085bf68e\output\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\curly\.android\build-cache\3d78cd82ca1b7f74213aa7e166f1e431f4525e2b\output\AndroidManifest.xml:2:3-17
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\curly\.android\build-cache\549ed1897874519711e885b821ea105f2fd4f6ff\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\curly\.android\build-cache\3158554928925c8f1c098b6fbb0af403f7228f3e\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\curly\.android\build-cache\30d325b5fd2f7e66ad08bd9e0a7d77aa05409248\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\curly\.android\build-cache\884e84805417d00f45f6c481f28582717bb66f97\output\AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\curly\.android\build-cache\d4e5d42a7592486632fa8085894660b25063835d\output\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] C:\Users\curly\.android\build-cache\623a79030961d7d4c941fd9c92fbd20a084662f8\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\curly\.android\build-cache\ab049062b9a950ca3c239ff82a42c5015bd84754\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] C:\Users\curly\.android\build-cache\08e7deaea17d85bdcea996123244568045a94103\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\curly\.android\build-cache\33a72fdc069b29270a05c0f16c9e05fe6596a8c5\output\AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\curly\.android\build-cache\64108aac6de058dc8ba3c39752bc739d1509aa27\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] C:\Users\curly\.android\build-cache\7a86bbac0b7d2ea175985fad81ef4c9ef3dbd506\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] C:\Users\curly\.android\build-cache\e76f18ba4985ebc52f9cc5a9e4f797141b3d8273\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] C:\Users\curly\.android\build-cache\f52dc489a09e6374bf155aac32fbf01f5e379c46\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\curly\.android\build-cache\0e523359f5d2360e2974db5b8da69fb4eeb6d953\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\curly\.android\build-cache\897b567255ebfd6693283877eb157c891d19dd3e\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\curly\.android\build-cache\e6b6ccd3bf4dfa57a547c02e46dec83ec53d07e3\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\curly\.android\build-cache\77c37120c8391e9cc89a1c58641f472b2eb5ccdf\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\06e0a6addbc37dbc96f74698783228f549610d58\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] C:\Users\curly\.android\build-cache\51c743edc56db5a0ad206f468476c85dc4fbea29\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] C:\Users\curly\.android\build-cache\c936e8bd382922f0650ba0b2b2055899516e1d00\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] C:\Users\curly\.android\build-cache\78a106212aececcab091ffc40f3f3c24291ef585\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.4] C:\Users\curly\.android\build-cache\6afa9f7a98caf83e3d001db309b92fb3aa31168e\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] C:\Users\curly\.android\build-cache\33f56ec958e20cbd097b920dbe50c1b1ef17fd04\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] C:\Users\curly\.android\build-cache\c472f11387bae9ee46d07ddbe7c79bcb69c9b8d2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\curly\.android\build-cache\211a7604d7b2311255411b3342af2ac869baff59\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\curly\.android\build-cache\64f2a3ccbbcdf884154f13eb09d8b7d4ac34a008\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.raizlabs.android:DBFlow:2.2.1] C:\Users\curly\.android\build-cache\539a9f3219680240941b6d1f5c3dceac4ff8cab6\output\AndroidManifest.xml:11:5-20
+MERGED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:26:5-44:19
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\curly\.android\build-cache\7f479f2a9f8db0b5caba6864ac6164dabbcea034\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\curly\.android\build-cache\ada7a25f422129d11cf3c7d0b1e95da4ebf36eba\output\AndroidManifest.xml:10:5-20
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] C:\Users\curly\.android\build-cache\75529d7d661778ea25cbcbadabe8d06ec363648b\output\AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:18:5-28:19
+MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\curly\.android\build-cache\3770b3348eca668a597dfe7a66bc4bc7b42a4e89\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-cache\ecaa4999089425e33fd7d52a273c4ac1d3e8d0f4\output\AndroidManifest.xml:32:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\621efc0ef24d19d2a259f3d92369b54546da2ee3\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\501c803eab1aa2591a77305fbc79892f79145893\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\curly\.android\build-cache\3f33120681f67d2342260d4658a5c10819059b15\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\curly\.android\build-cache\698b48284b5733ee51e43ae3da9144044ba99714\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\curly\.android\build-cache\b458d5c416a949e8659621a837c0a4d703175e05\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\curly\.android\build-cache\02e07e336412f136726b00ca372495f0d99a3da1\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\curly\.android\build-cache\0be6f6c4d5ae1647959ed88efc046a54b9a9f9e8\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\curly\.android\build-cache\02764933bae5e7ef740ad6273ec2ffb3d50ef908\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:47:5-37
+	android:supportsRtl
+		ADDED from [android:react-native-google-places:unspecified] C:\Users\curly\git\ratingApp\node_modules\react-native-google-places\android\build\intermediates\bundles\default\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:45:5-31
+	android:icon
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:46:5-39
+	android:largeHeap
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:48:5-29
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:44:5-36
+activity#host.exp.exponent.LauncherActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:50:5-64:16
+	android:screenOrientation
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:54:7-43
+	android:launchMode
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:53:7-38
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:52:7-30
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:55:7-66
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:51:7-39
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:56:7-63:23
+data
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:57:9-69
+	android:scheme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:57:15-67
+action#android.intent.action.VIEW
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:59:9-60
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:59:17-58
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:61:9-67
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:61:19-65
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:62:9-69
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:62:19-67
+activity#host.exp.exponent.experience.ExperienceActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:66:5-71:16
+	android:windowSoftInputMode
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:70:7-49
+	android:configChanges
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:68:7-77
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:69:7-50
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:67:7-52
+activity#host.exp.exponent.MainActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:73:5-83:16
+	android:windowSoftInputMode
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:77:7-49
+	android:configChanges
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:75:7-77
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:76:7-51
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:74:7-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:78:7-82:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:79:9-60
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:79:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:81:9-68
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:81:19-66
+activity#host.exp.exponent.experience.ShellAppActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:85:5-91:16
+	android:windowSoftInputMode
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:89:7-49
+	android:configChanges
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:87:7-77
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:88:7-51
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:86:7-50
+activity#host.exp.exponent.experience.HomeActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:93:5-99:16
+	android:screenOrientation
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:97:7-43
+	android:label
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:95:7-39
+	android:launchMode
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:96:7-38
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:98:7-50
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:94:7-46
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:101:5-81
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:101:15-79
+activity#abi25_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:103:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:103:15-89
+activity#abi24_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:104:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:104:15-89
+activity#abi23_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:105:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:105:15-89
+activity#abi22_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:106:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:106:15-89
+activity#abi21_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:107:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:107:15-89
+activity#abi20_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:108:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:108:15-89
+activity#abi19_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:109:5-91
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:109:15-89
+activity#host.exp.exponent.ExponentDevActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:111:5-118:16
+	android:screenOrientation
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:115:7-43
+	android:label
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:114:7-48
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:113:7-30
+	android:windowSoftInputMode
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:117:7-46
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:116:7-49
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:112:7-42
+activity#host.exp.exponent.oauth.OAuthWebViewActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:120:5-124:16
+	android:screenOrientation
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:122:7-43
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:123:7-50
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:121:7-49
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:126:5-135:16
+REJECTED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:32:9-43:20
+	tools:node
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:128:9-29
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:127:9-70
+activity#host.exp.exponent.oauth.OAuthResultActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:137:5-139:16
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:138:7-48
+activity#host.exp.exponent.chrometabs.ChromeTabsManagerActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:141:5-143:16
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:142:7-59
+activity#host.exp.exponent.experience.ErrorActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:145:5-149:16
+	android:screenOrientation
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:148:7-43
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:147:7-49
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:146:7-47
+activity#host.exp.exponent.experience.InfoActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:151:5-155:16
+	android:screenOrientation
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:153:7-43
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:154:7-50
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:152:7-46
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:157:5-162:39
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\curly\.android\build-cache\33a72fdc069b29270a05c0f16c9e05fe6596a8c5\output\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:160:7-39
+	android:configChanges
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:159:7-90
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:161:7-66
+		REJECTED from [com.facebook.android:facebook-common:4.28.0] C:\Users\curly\.android\build-cache\33a72fdc069b29270a05c0f16c9e05fe6596a8c5\output\AndroidManifest.xml:32:13-63
+	tools:replace
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:162:7-36
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:158:7-51
+activity#com.facebook.ads.InterstitialAdActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:164:5-168:69
+	android:label
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:167:7-39
+	android:configChanges
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:166:7-90
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:168:7-66
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:165:7-61
+service#host.exp.exponent.ExponentIntentService
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:170:5-172:34
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:172:7-31
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:171:7-44
+receiver#host.exp.exponent.referrer.InstallReferrerReceiver
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:175:5-181:16
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:177:7-30
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:176:7-72
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:178:7-180:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:179:9-71
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:179:17-68
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:191:5-196:16
+	android:enabled
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:192:15-37
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:191:15-80
+intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:193:7-195:23
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:194:9-86
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:194:17-83
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:198:5-200:40
+	android:enabled
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:199:14-36
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:200:14-38
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:198:14-78
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:203:5-213:16
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:205:7-30
+	android:permission
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:206:7-67
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:204:7-60
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+oneClickRating
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:207:7-212:23
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:208:9-72
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:208:17-70
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:209:9-77
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:209:17-75
+category#oneClickRating
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:211:9-50
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:211:19-48
+service#host.exp.exponent.gcm.ExponentGcmListenerService
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:215:5-221:15
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:217:7-31
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:216:7-53
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:218:7-220:23
+service#host.exp.exponent.gcm.ExponentInstanceIDListenerService
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:222:5-228:15
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:224:7-31
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:223:7-60
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:225:7-227:23
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:226:9-71
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:226:17-69
+service#host.exp.exponent.gcm.RegistrationIntentService
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:229:5-232:15
+	android:exported
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:231:7-31
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:230:7-52
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:235:5-238:16
+	android:theme
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:237:7-50
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:236:7-70
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:243:5-245:65
+	android:value
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:245:7-63
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:244:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:250:5-252:64
+	android:value
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:252:7-62
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:251:7-52
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:258:5-83
+	android:value
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:258:62-81
+	android:name
+		ADDED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml:258:16-61
+uses-sdk
+INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [android:react-native-google-places:unspecified] C:\Users\curly\git\ratingApp\node_modules\react-native-google-places\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-places:10.2.4] C:\Users\curly\.android\build-cache\bb160670332059e6373edb43310db2ddcc9f140f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.3.4] C:\Users\curly\.android\build-cache\aef3a4521b21658a9677fa94905131d38040d505\output\AndroidManifest.xml:5:5-43
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\curly\.android\build-cache\c19e0e320957a222a2299ac1edc4b379191996a0\output\AndroidManifest.xml:18:5-42
+MERGED from [com.facebook.react:react-native:25.0.0] C:\Users\curly\.android\build-cache\064fc4ce8c6e0ab1bd5e28b804bb210d11ca8859\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] C:\Users\curly\.android\build-cache\8e642d8c36acf0a9e2e33c583755690c671bbef9\output\AndroidManifest.xml:5:5-7:41
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] C:\Users\curly\.android\build-cache\8834600c37efbdd0ecbb5416587c012f8547849c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] C:\Users\curly\.android\build-cache\23757e2d8c9f066789e612c15ad6f7e5abf35e83\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi23:1.0.0] C:\Users\curly\.android\build-cache\9e13603e022931416ddd5eafb26e8f58aca474ef\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi22:1.0.0] C:\Users\curly\.android\build-cache\08e777bfcd92aef9c27086d09741184087e7f813\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi21:1.0.0] C:\Users\curly\.android\build-cache\0911b5b716c6aa593260a370f79d4f0a64709e7f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi20:1.0.0] C:\Users\curly\.android\build-cache\6796d8bd0b989d3a4ffb42f796b82a1872c3c721\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi19:1.0.0] C:\Users\curly\.android\build-cache\9c366f79265027d72b7f21074e9924b97cbf1773\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\curly\.android\build-cache\061c83e1bd128f6259d8ffeb6f5a5bdb03d50733\output\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] C:\Users\curly\.android\build-cache\95e54290fb39a4d667fe8682b754a023e5abc627\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.0.1] C:\Users\curly\.android\build-cache\1e55f0decbc0e61a05ae9fac2bca132369466c83\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.0.1] C:\Users\curly\.android\build-cache\666021378cde73053591f35b9ace211ce4764f0e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:1.0.1] C:\Users\curly\.android\build-cache\9b44987d71be1112e093242032a38895f4bd827f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.0.1] C:\Users\curly\.android\build-cache\ebf6a79c4ee579f2e81d66c343f918608b0b21ba\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] C:\Users\curly\.android\build-cache\6ef97f775af71a12168ffdfbafbcd501fac8d0c9\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:1.0.1] C:\Users\curly\.android\build-cache\61b669d1d9e2348267e3912955825623c242c7c3\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] C:\Users\curly\.android\build-cache\9764c928bdb07ee838c989b8bfd84d73aa6a7597\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] C:\Users\curly\.android\build-cache\343fcdb88335c786ad53c5f8488438998917b614\output\AndroidManifest.xml:5:5-7:41
+MERGED from [expolib_v1.com.facebook.fresco:expolib_v1-imagepipeline-okhttp3:1.0.1] C:\Users\curly\.android\build-cache\30a93528a0495e46fe45e93ef3ab6c69a7190423\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\curly\.android\build-cache\e42c8ced49ad8796c5da0cedb4be7c33085bf68e\output\AndroidManifest.xml:2:3-70
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\curly\.android\build-cache\549ed1897874519711e885b821ea105f2fd4f6ff\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\curly\.android\build-cache\3158554928925c8f1c098b6fbb0af403f7228f3e\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\curly\.android\build-cache\30d325b5fd2f7e66ad08bd9e0a7d77aa05409248\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\curly\.android\build-cache\884e84805417d00f45f6c481f28582717bb66f97\output\AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\curly\.android\build-cache\d4e5d42a7592486632fa8085894660b25063835d\output\AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] C:\Users\curly\.android\build-cache\623a79030961d7d4c941fd9c92fbd20a084662f8\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\curly\.android\build-cache\ab049062b9a950ca3c239ff82a42c5015bd84754\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] C:\Users\curly\.android\build-cache\08e7deaea17d85bdcea996123244568045a94103\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\curly\.android\build-cache\33a72fdc069b29270a05c0f16c9e05fe6596a8c5\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\curly\.android\build-cache\64108aac6de058dc8ba3c39752bc739d1509aa27\output\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.28.0] C:\Users\curly\.android\build-cache\7a86bbac0b7d2ea175985fad81ef4c9ef3dbd506\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] C:\Users\curly\.android\build-cache\e76f18ba4985ebc52f9cc5a9e4f797141b3d8273\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] C:\Users\curly\.android\build-cache\f52dc489a09e6374bf155aac32fbf01f5e379c46\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\curly\.android\build-cache\0e523359f5d2360e2974db5b8da69fb4eeb6d953\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:r2.0.3] C:\Users\curly\.android\build-cache\c620a6217f75bb151cfabab2e7df46168f3ebd06\output\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\curly\.android\build-cache\897b567255ebfd6693283877eb157c891d19dd3e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\curly\.android\build-cache\e6b6ccd3bf4dfa57a547c02e46dec83ec53d07e3\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\curly\.android\build-cache\77c37120c8391e9cc89a1c58641f472b2eb5ccdf\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\06e0a6addbc37dbc96f74698783228f549610d58\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] C:\Users\curly\.android\build-cache\40abea48f1b6465c7245cd45d57b04002ac278c1\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] C:\Users\curly\.android\build-cache\5303d9258794bfe68853883efb16db15731f14fe\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] C:\Users\curly\.android\build-cache\51c743edc56db5a0ad206f468476c85dc4fbea29\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] C:\Users\curly\.android\build-cache\c936e8bd382922f0650ba0b2b2055899516e1d00\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] C:\Users\curly\.android\build-cache\78a106212aececcab091ffc40f3f3c24291ef585\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-location:10.2.4] C:\Users\curly\.android\build-cache\6afa9f7a98caf83e3d001db309b92fb3aa31168e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] C:\Users\curly\.android\build-cache\33f56ec958e20cbd097b920dbe50c1b1ef17fd04\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] C:\Users\curly\.android\build-cache\b9f773d3c072b36857368dcdf6c5bbb4891bc020\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] C:\Users\curly\.android\build-cache\c472f11387bae9ee46d07ddbe7c79bcb69c9b8d2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\curly\.android\build-cache\211a7604d7b2311255411b3342af2ac869baff59\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\curly\.android\build-cache\64f2a3ccbbcdf884154f13eb09d8b7d4ac34a008\output\AndroidManifest.xml:17:5-43
+MERGED from [com.stripe:stripe-android:2.1.0] C:\Users\curly\.android\build-cache\c33b07f613416824e56d7a1288e3f3b00a9c399e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.thefuntasty:CreditCardEntry:1.4.8.4] C:\Users\curly\.android\build-cache\1fa0c6d20acb8ef0f8cbeec9418f67c603b448b8\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.raizlabs.android:DBFlow:2.2.1] C:\Users\curly\.android\build-cache\539a9f3219680240941b6d1f5c3dceac4ff8cab6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] C:\Users\curly\.android\build-cache\481187a84c80a4c6554b32d2762aaa826029bdfb\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.1] C:\Users\curly\.android\build-cache\d16bdc41ced8c096a0450434acb214427a91ed55\output\AndroidManifest.xml:8:5-10:41
+MERGED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\curly\.android\build-cache\7f479f2a9f8db0b5caba6864ac6164dabbcea034\output\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\curly\.android\build-cache\ada7a25f422129d11cf3c7d0b1e95da4ebf36eba\output\AndroidManifest.xml:6:5-8:41
+MERGED from [io.branch.sdk.android:library:2.6.1] C:\Users\curly\.android\build-cache\b9b2f205f68e31d9b8ef2600442679497e1b0296\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] C:\Users\curly\.android\build-cache\75529d7d661778ea25cbcbadabe8d06ec363648b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\curly\.android\build-cache\3770b3348eca668a597dfe7a66bc4bc7b42a4e89\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-cache\ecaa4999089425e33fd7d52a273c4ac1d3e8d0f4\output\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\621efc0ef24d19d2a259f3d92369b54546da2ee3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\501c803eab1aa2591a77305fbc79892f79145893\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\curly\.android\build-cache\3f33120681f67d2342260d4658a5c10819059b15\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\curly\.android\build-cache\698b48284b5733ee51e43ae3da9144044ba99714\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\curly\.android\build-cache\b458d5c416a949e8659621a837c0a4d703175e05\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\curly\.android\build-cache\02e07e336412f136726b00ca372495f0d99a3da1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\curly\.android\build-cache\0be6f6c4d5ae1647959ed88efc046a54b9a9f9e8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\curly\.android\build-cache\02764933bae5e7ef740ad6273ec2ffb3d50ef908\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta1] C:\Users\curly\.android\build-cache\cd2d425132f9c75b20467021a139639fba0795c2\output\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\curly\git\ratingApp\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:11:5-17:24
+	android:largeScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:15:9-36
+	android:normalScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:16:9-37
+	android:anyDensity
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:12:9-34
+uses-permission#host.exp.exponent.permission.C2D_MESSAGE
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.READ_CALENDAR
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:31:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:32:5-73
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:32:22-70
+uses-feature#android.hardware.camera
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:39:5-41:36
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-cache\ecaa4999089425e33fd7d52a273c4ac1d3e8d0f4\output\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:40:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:42:5-44:36
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\curly\.android\build-cache\ecaa4999089425e33fd7d52a273c4ac1d3e8d0f4\output\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:43:9-57
+uses-feature#android.hardware.location
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:45:5-47:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:47:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:46:9-49
+uses-feature#android.hardware.location.gps
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:48:5-50:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:50:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:49:9-53
+uses-feature#android.hardware.location.network
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:51:5-53:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:53:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:52:9-57
+uses-feature#android.hardware.wifi
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:54:5-56:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:56:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:55:9-45
+uses-feature#android.hardware.microphone
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:57:5-59:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:59:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:58:9-51
+uses-feature#android.hardware.telephony
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:60:5-62:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:62:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:61:9-50
+uses-feature#android.hardware.bluetooth
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:63:5-65:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:65:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:64:9-50
+receiver#host.exp.exponent.notifications.ScheduledNotificationReceiver
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:70:9-72:40
+	android:exported
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:71:13-89
+provider#android.support.v4.content.FileProvider
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:74:9-82:20
+	android:authorities
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:76:13-60
+	android:grantUriPermissions
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:78:13-47
+	android:exported
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:75:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:79:13-81:58
+	android:resource
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:81:17-55
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\curly\.android\build-cache\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\output\AndroidManifest.xml:80:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\curly\.android\build-cache\33a72fdc069b29270a05c0f16c9e05fe6596a8c5\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\curly\.android\build-cache\33a72fdc069b29270a05c0f16c9e05fe6596a8c5\output\AndroidManifest.xml:33:19-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\curly\.android\build-cache\64108aac6de058dc8ba3c39752bc739d1509aa27\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\curly\.android\build-cache\0e523359f5d2360e2974db5b8da69fb4eeb6d953\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\curly\.android\build-cache\7f479f2a9f8db0b5caba6864ac6164dabbcea034\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\curly\.android\build-cache\3770b3348eca668a597dfe7a66bc4bc7b42a4e89\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\curly\.android\build-cache\bf097310a8a9e9cc201abd3da951ee6b1d9830a5\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\621efc0ef24d19d2a259f3d92369b54546da2ee3\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\curly\.android\build-cache\501c803eab1aa2591a77305fbc79892f79145893\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\curly\.android\build-cache\b458d5c416a949e8659621a837c0a4d703175e05\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\curly\.android\build-cache\02e07e336412f136726b00ca372495f0d99a3da1\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\curly\.android\build-cache\0be6f6c4d5ae1647959ed88efc046a54b9a9f9e8\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\curly\.android\build-cache\7f7ae70f7f4beab6bead0c284d2830c8ce296cc3\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\curly\.android\build-cache\02764933bae5e7ef740ad6273ec2ffb3d50ef908\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\curly\.android\build-cache\9581affb22540d99e899bfcd9ff2909fdb4116d6\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\curly\.android\build-cache\64108aac6de058dc8ba3c39752bc739d1509aa27\output\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\curly\.android\build-cache\64108aac6de058dc8ba3c39752bc739d1509aa27\output\AndroidManifest.xml:24:13-51
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\curly\.android\build-cache\621f7504209c47fce294a1a49197d448c30506c4\output\AndroidManifest.xml:40:13-70
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:15:9-17:77
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\curly\.android\build-cache\f40ede17d1ce41f4827fea252ce2895191871fa5\output\AndroidManifest.xml:16:13-68
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\curly\.android\build-cache\4dd011ddf4d2d040ab3e75d5977d1986bd36793d\output\AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\curly\.android\build-cache\db99893e786096393190e902e0ecf07f85dcc858\output\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\curly\.android\build-cache\64f2a3ccbbcdf884154f13eb09d8b7d4ac34a008\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\curly\.android\build-cache\64f2a3ccbbcdf884154f13eb09d8b7d4ac34a008\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\curly\.android\build-cache\64f2a3ccbbcdf884154f13eb09d8b7d4ac34a008\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\curly\.android\build-cache\64f2a3ccbbcdf884154f13eb09d8b7d4ac34a008\output\AndroidManifest.xml:19:19-85
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:27:22-85
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:30:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:33:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\curly\.android\build-cache\d8433a87c5807d065ed8c81d3029c97d76896107\output\AndroidManifest.xml:33:22-80
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:27:9-31:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:30:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\curly\.android\build-cache\013d4425fcb1175fb03ede34a3e754577f36631b\output\AndroidManifest.xml:28:13-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\curly\.android\build-cache\bafcded2096388fc3b567d690176bf7e985f67cd\output\AndroidManifest.xml:26:13-120
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:27:17-104
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\curly\.android\build-cache\8fbf1bf0f571f01fac3c9bcf5e522af2eed3522b\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\curly\.android\build-cache\ba8736d8f14af5bf3a1b5690534dcbe569462f7c\output\AndroidManifest.xml:32:16-87
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:31:13-35:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\curly\.android\build-cache\4b5023aaa6b25c06fb692680726e6a7c048b2faf\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\curly\.android\build-cache\fa20af46a3bf88aec88430d10d41ca2f10f2b78e\output\AndroidManifest.xml:6:79-124
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\curly\.android\build-cache\476c9a676759564e2cd1cdb20e0b1402763f97c7\output\AndroidManifest.xml:20:20-65

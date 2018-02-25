@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\curly\\.android\\build-cache\\b9f773d3c072b36857368dcdf6c5bbb4891bc020\\output\\res\\values-en-rSG\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 244,
+                        "endColumn": 99,
+                        "endOffset": 343
+                    }
+                }
+            }
+        ]
+    }
+]

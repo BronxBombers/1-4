@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\mipmap-hdpi\\dev_icon.png",
+        "source": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\src\\main\\res\\mipmap-hdpi\\dev_icon.png"
+    }
+]

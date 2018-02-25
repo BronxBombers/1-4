@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\curly\\.android\\build-cache\\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\\output\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\global_tracker.xml",
+        "source": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\generated\\res\\google-services\\dev19\\debug\\xml\\global_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\stub_material.xml",
+        "source": "C:\\Users\\curly\\.android\\build-cache\\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\\output\\res\\xml\\stub_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\stub_classic.xml",
+        "source": "C:\\Users\\curly\\.android\\build-cache\\6cbfe52edd9d4684884f66c8a39c3a6eae26df2b\\output\\res\\xml\\stub_classic.xml"
+    },
+    {
+        "merged": "C:\\Users\\curly\\git\\ratingApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\curly\\.android\\build-cache\\064fc4ce8c6e0ab1bd5e28b804bb210d11ca8859\\output\\res\\xml\\preferences.xml"
+    }
+]
