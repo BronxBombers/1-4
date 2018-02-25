@@ -4,9 +4,7 @@ import { AppRegistry, Image, Button, Text, Alert, View, TouchableOpacity } from 
 
 export default class ratingApp extends Component {
 
-
-
-  render() {
+  renderButton() {
     const buttons = [
       {text: 'button 1', pic: './assets/star.png', action: () => console.log('pressed button 1')},
       {text: 'button 2', pic: './assets/star.png', action: () => console.log('pressed button 2')},
@@ -14,9 +12,13 @@ export default class ratingApp extends Component {
       {text: 'button 4', pic: './assets/star.png', action: () => console.log('pressed button 4')},
       {text: 'button 5', pic: './assets/star.png', action: () => console.log('pressed button 5')}
     ];
-
     const renderedButtons =  buttons.map(b => {
       return <TouchableOpacity key={b.text} title={b.text} onPress={b.action}><Image source={require('./assets/star.png')} style={{height:60,width:60}}/></TouchableOpacity>;});
+
+    return renderedButtons;
+  }
+
+  render() {
 
     return (
       <View style={{flex:1,flexDirection:"column",backgroundColor:"red",justifyContent:"flex-end"}}>
@@ -25,7 +27,7 @@ export default class ratingApp extends Component {
           <Image source={require("./assets/placeholder.jpg")} style={{height:250,width:250}}/>
         </View>
         <View style={{flex:0, flexDirection:"row", backgroundColor:"blue", marginBottom:75}}>
-          {renderedButtons}
+          {this.renderButton()}
         </View>
       </View>
     );
